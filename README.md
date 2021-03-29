@@ -1,4 +1,4 @@
-# ask-ask-controls-tutotiral
+# ask-sdk-controls-tutotiral
 
 Unofficial tutorials for [ask-sdk-controls](https://github.com/alexa/ask-sdk-controls).
 
