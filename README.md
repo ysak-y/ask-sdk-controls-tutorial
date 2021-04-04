@@ -17,4 +17,4 @@ Unofficial tutorials for [ask-sdk-controls](https://github.com/alexa/ask-sdk-con
   - [Chapter01](./chapter01)
     - Run your first skill with ask-sdk-controls
   - [Chapter02](./chapter02)
-    - Handle multiple intents. Handle multiple acts with visual response
+    - Handle different kind of intents. Handle multiple acts with visual response
