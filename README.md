@@ -20,3 +20,5 @@ Unofficial tutorials for [ask-sdk-controls](https://github.com/alexa/ask-sdk-con
     - Handle different kind of intents. Handle multiple acts with visual response
   - [Chapter03](./chapter03)
     - Use `State` to store data for keeping context
+  - [Chapter04](./chapter04)
+    - Use `Initiative Phase` with multiple controls
