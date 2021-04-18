@@ -125,7 +125,7 @@ export class TakeOrderControl extends ContainerControl {
         } else if (this.state.value.name && !this.state.value.confirmed) {
             resultBuilder.addAct(
                 new LiteralInitiativeAct(this, {
-                    promptFragment: `Is that right?`,
+                    promptFragment: 'Is that right?',
                 }),
             );
         }
