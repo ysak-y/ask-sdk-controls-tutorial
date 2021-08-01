@@ -1296,29 +1296,36 @@ array-unique@^0.3.2:
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
-ask-sdk-controls@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/ask-sdk-controls/-/ask-sdk-controls-0.5.1.tgz#5c41ad9b24ae2d1885016ff69b1c32139b36c643"
-  integrity sha512-p1X+8RXyvSxD7EjYEYTHB+3TmnkB7e1qlU+KnpWoLOajS1+7q3N3jEut67X5MpF0RFVwGBUkmSOJ3S50jbpbCA==
+ask-sdk-controls@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/ask-sdk-controls/-/ask-sdk-controls-0.6.2.tgz#f5e63d4de5964ead18060ee23c3c2c02ef3f61c1"
+  integrity sha512-0Hcinp/i3g0ZzHFpl427GCpOsoymEXACGaigNwaqRTCEosW9D09tUrF5lkI13YEbbqzXPeH1mOUIqsJ1EUn+oA==
   dependencies:
-    ask-sdk-core "^2.10.1"
-    ask-sdk-local-debug "^1.0.0"
-    ask-sdk-model "^1.28.0"
-    ask-smapi-model "^1.5.0"
+    ask-sdk-core "^2.10.2"
+    ask-sdk-local-debug "^1.1.0"
+    ask-sdk-model "^1.35.1"
+    ask-smapi-model "^1.15.3"
     chai "^4.2.0"
     debug "^4.1.1"
-    i18next "^19.5.4"
+    i18next "^19.9.2"
     lodash "^4.17.15"
     tslib "^2.0.0"
 
-ask-sdk-core@^2.10.1, ask-sdk-core@^2.10.2, ask-sdk-core@^2.8.0:
+ask-sdk-core@^2.10.2, ask-sdk-core@^2.8.0:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/ask-sdk-core/-/ask-sdk-core-2.10.2.tgz#db846ae27c91e13a9859b46175075ffc12af359e"
   integrity sha512-HaH/ditTlB5nqXB2rx8D36fwG8PMP6OXQK3kHQDoTV8b4jgOij1eESJ3sGRilXwLfK/BUz92Ya2laIEnNvzhEA==
   dependencies:
     ask-sdk-runtime "^2.10.2"
 
-ask-sdk-local-debug@^1.0.0:
+ask-sdk-core@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/ask-sdk-core/-/ask-sdk-core-2.11.0.tgz#9b343dfc52d44998c186b1ba7c1598c6f0191b5f"
+  integrity sha512-NBhVNiLuDLRb34vMCuJIe30lK5lb0+y7UkGti9BVZPvkiKkXTxYAjG/tZyGGYqeu3ZAltwvMTUjZB+aTkRyk2g==
+  dependencies:
+    ask-sdk-runtime "^2.10.2"
+
+ask-sdk-local-debug@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/ask-sdk-local-debug/-/ask-sdk-local-debug-1.1.0.tgz#59974801a591d11b70d667a42b6cfaaaf5495ef5"
   integrity sha512-MBhORWRCdIhPuwh0fXzJdVA75pTIbp9xTnttVzzzl+XJsC3wgyNQ067kqra9RKbJ8HKeuG//zrlGCnxIugQk2g==
@@ -1334,20 +1341,25 @@ ask-sdk-model-runtime@^1.1.0:
   resolved "https://registry.yarnpkg.com/ask-sdk-model-runtime/-/ask-sdk-model-runtime-1.4.0.tgz#7ec395985c433dd9118a238932ac3a8ac8c0c0bd"
   integrity sha512-JSu9zGklm8jtaQMk344BTJqVSX/tenFNB7b+jgnoHDp4aRwmzCAlDnBiiNAVMXlbrBeIi+ms79yK1s2oq0PjFg==
 
-ask-sdk-model@^1.28.0, ask-sdk-model@^1.29.0, ask-sdk-model@^1.34.1:
+ask-sdk-model@^1.29.0:
   version "1.34.1"
   resolved "https://registry.yarnpkg.com/ask-sdk-model/-/ask-sdk-model-1.34.1.tgz#d3b957cb2368f27375fd3781ece4d8d6c6df7bac"
   integrity sha512-bnKzRczfmk7uYHtPNFxQbngwUCB7wnL/bAgOKXYehDKiRX3kpoIoZPzpCadSPp9OcyN7Iq6CW1zkADW5IT6CLA==
+
+ask-sdk-model@^1.35.1, ask-sdk-model@^1.36.1:
+  version "1.36.1"
+  resolved "https://registry.yarnpkg.com/ask-sdk-model/-/ask-sdk-model-1.36.1.tgz#344989a20e8f8fcd082cd41f6925ef907f58c7b8"
+  integrity sha512-CTN+COPJE/ZZ9WeOq812rFhF+P4BF/fTAYDFUkFlDNa7mRd1ZzT0PxdnpxW3a6xCHnOpGOwFJSBnWFQmi1wDhQ==
 
 ask-sdk-runtime@^2.10.2:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/ask-sdk-runtime/-/ask-sdk-runtime-2.10.2.tgz#8c3bd818c73deb46bccc58ff00387ee652b5a0ad"
   integrity sha512-pe9xbhQzkRGrrWT/pRceoREmVLKw33C7Z00mC4mKZEOrO4vjjrUAXNIALPKIy/gpqMTB00N0H77vLtzZVH21Sg==
 
-ask-smapi-model@^1.5.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/ask-smapi-model/-/ask-smapi-model-1.14.0.tgz#1076b92eef9fa08a8d29b7c24b0e0063ba809b02"
-  integrity sha512-HnmHZy7YY3Bdcwr+pkVKV7x91WckQCf7Q4zQuIG/b2m3MXqwRm6b83OmnirFtvc25u2YlfaEvM7Zy3aiQAyWOw==
+ask-smapi-model@^1.15.3:
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/ask-smapi-model/-/ask-smapi-model-1.17.0.tgz#b16dbab644fff3f6eb5aa2d738a80cf6fe58bcbf"
+  integrity sha512-TVRJwDUYglAg/IVLM8cTtLgOOVMigs70HxUckovyvpP2NiKUp72YMdOzwAwEblttOPJANs2jk3Grta91qcT30g==
   dependencies:
     ask-sdk-model-runtime "^1.1.0"
 
@@ -2394,7 +2406,7 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-i18next@^19.5.4:
+i18next@^19.9.2:
   version "19.9.2"
   resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.9.2.tgz#ea5a124416e3c5ab85fddca2c8e3c3669a8da397"
   integrity sha512-0i6cuo6ER6usEOtKajUUDj92zlG+KArFia0857xxiEHAQcUwh/RtOQocui1LPJwunSYT574Pk64aNva1kwtxZg==
