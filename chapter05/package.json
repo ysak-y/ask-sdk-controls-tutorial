@@ -1,0 +1,26 @@
+{
+    "name": "ask-sdk-controls-tutorial",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/ysak-y/ask-sdk-controls-tutorial.git",
+    "author": "ysak-y <yoshiaki.0614@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "dependencies": {
+        "ask-sdk-controls": "^0.9.0",
+        "ask-sdk-core": "^2.12.0",
+        "ask-sdk-model": "^1.38.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.13.12",
+        "@babel/preset-typescript": "^7.13.0",
+        "@types/jest": "^27.4.1",
+        "jest": "^27.5.1",
+        "prettier": "^2.6.0",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.2"
+    }
+}
